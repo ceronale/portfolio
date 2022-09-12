@@ -40,6 +40,7 @@ const Sidebar = () => {
   const router = useRouter();
 
   return (
+    <div >
     <aside className={styles.sidebar}>
       <div className={styles.sidebarTop}>
         {sidebarTopItems.map(({ Icon, path }) => (
@@ -78,6 +79,7 @@ const Sidebar = () => {
         ))}
       </div>
     </aside>
+    </div>
   );
 };
 
