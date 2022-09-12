@@ -1,8 +1,3 @@
-import React from 'react';
-
-
-
-
 export const homeData = {
   bigTitleUp: "Hello",
   bigTitleDown: "World",
