@@ -8,6 +8,26 @@ const ContactPage = () => {
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
+  
+  const submitForm = async (e) => {
+    e.preventDefault();
+    const res = await fetch(`/api/send`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, subject, message }),
+    });
+    
+    
+    if (res.ok) {
+      alert('Your response has been received!');
+      setName('');
+      setEmail('');
+      setSubject('');
+      setMessage('');
+    } else {
+      alert('There was an error. Please try again in a while.');
+    }
+  };
 
 
   return (
@@ -18,7 +38,7 @@ const ContactPage = () => {
       </div>
       <div>
         <h3 className={styles.heading}>Or Fill Out This Form</h3>
-        <form className={styles.form}>
+        <form className={styles.form} onSubmit={submitForm}>
           <div className={styles.flex}>
             <div>
               <label htmlFor="name">Name</label>
