@@ -30,11 +30,12 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # Local env files
-.env.production
 .env.development
-
+.env.production
 
 # Vercel
 .vercel
 
 # End of https://www.toptal.com/developers/gitignore/api/nextjs
+
+
