@@ -8,7 +8,7 @@ export const homeData = {
 };
 
 export const aboutData = {
-  description:"Well, my name is Alexander I am a proactive Software engineer based in Chile graduated with honours from the University Bernardo O'higgins I'm always looking for professional growth, and the most important about me is that I like to buid stuff;"
+  description:"Well, my name is Alexander. I am a proactive Software engineer based in Chile, graduated with honours from the University Bernardo O'higgins. I'm always looking for professional growth and the most important thing about me is that I like to build stuff;"
 };
 
 export const contactData = [
