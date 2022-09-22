@@ -53,6 +53,7 @@ export const appsProjectsData = [
     "description": "Just a simple dashboard with some nice features",
     "tags": ["react", "tailwind"],
     "source_code": "https://github.com/ceronale/dashboard-react-01",
+    "demo": "https://just-a-dashboard-p8cmaaabq-ceronale.vercel.app/"
   },
   {
     "id": 2,
