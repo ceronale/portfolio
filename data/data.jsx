@@ -39,7 +39,7 @@ export const contactData = [
 
 export const gitData = {
   user: "ceronale",
-  token:"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"
+  token:""
 };
 
 
