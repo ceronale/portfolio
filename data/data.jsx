@@ -2,20 +2,22 @@ export const homeData = {
   bigTitleUp: "Hello",
   bigTitleDown: "World",
   name: "Alexander Cerón",
-  profession: "SOFTWARE DEVELOPER",
-  leftButton: "Some work",
-  rightButton:"Contact me"
+  profession: "Desarrollador de Software",
+  leftButton: "Ver proyectos",
+  rightButton:"Contactame"
 };
 
 export const aboutData = {
-  description:"Well, my name is Alexander. I am a proactive Software engineer based in Chile, graduated with honours from the University Bernardo O'higgins. I'm always looking for professional growth and the most important thing about me is that I like to build stuff; "
+  description:"Mi nombre es Alexander, nací en Venezuela. Soy un ingeniero informatico proactivo, graduado con honores de la Universidad Bernardo O'Higgins en Chile. Siempre estoy en busca de oportunidades para crecer profesionalmente. Me apasiona construir cosas nuevas, disfruto del desafío de encontrar soluciones innovadoras y trabajar en proyectos que me permitan aplicar y expandir mis habilidades.",
+  languages: ["JavaScript", "Java", "Python", "Php"], // Lista de lenguajes que manejas
+  technologies: ["AWS", "ReactJS", "AngularJS", "MySql", "Postgresql", "Git", "SpringBoot","Wordpress"], 
 };
 
 export const contactData = [
   {
     social: 'website',
-    link: 'ceronale.com',
-    href: 'https://ceronale.com',
+    link: 'ceronale.dev',
+    href: 'https://ceronale.dev',
   },
   {
     social: 'email',
@@ -50,7 +52,7 @@ export const appsProjectsData = [
     "id": 1,
     "name": "Just a dashboard",
     "image": "https://imgur.com/Rd3mqD3.png",
-    "description": "Just a simple dashboard with some nice features",
+    "description": "Un simple dashboard",
     "tags": ["react", "tailwind"],
     "source_code": "https://github.com/ceronale/dashboard-react-01",
     "demo": "https://just-a-dashboard-p8cmaaabq-ceronale.vercel.app/"
@@ -59,15 +61,15 @@ export const appsProjectsData = [
     "id": 2,
     "name": "UBO / OIES",
     "image": "https://imgur.com/kIr8o4w.png",
-    "description": "A website for the Bernardo O'Higgins University ",
+    "description": "Un sitio para la Universidad Bernardo O'Higgins",
     "tags": ["wordpress", "elementor"],
-    "demo": "http://www.ubo.cl/sustentabilidad/"
+    "demo": "https://sostenibilidad.ubo.cl/"
   },
   {
     "id": 3,
     "name": "Apprazi",
     "image": "https://imgur.com/afSg8Bi.png",
-    "description": "A website for an app made by and for photographers",
+    "description": "Un sitio de fotografia",
     "tags": ["wordpress", "elementor"],
     "demo": "https://apprazi.com/"
   },
@@ -75,17 +77,25 @@ export const appsProjectsData = [
     "id": 4,
     "name": "Plastica Working",
     "image": "https://imgur.com/MIEve46.png",
-    "description": "A website for a  plastic consulting company",
+    "description": "Un sitio de consultoria",
     "tags": ["wordpress", "elementor"],
     "demo": "https://plasticaworking.cl//"
   },
   {
     "id": 5,
-    "name": "4 Ideas",
-    "image": "https://imgur.com/lvlOpiY.png",
-    "description": "E-commerce website for a local market",
+    "name": "Vendimar",
+    "image": "https://imgur.com/wKVxGvk.png",
+    "description": "Un sitio de ventas de articulos funerarios en españa",
     "tags": ["wordpress", "elementor"],
-    "demo": "https://bazar4ideas.cl/"
+    "demo": "https://vendimar.net/"
+  },
+  {
+    "id": 6,
+    "name": "Btm promo",
+    "image": "https://imgur.com/BkgVD2V.png",
+    "description": "Un sitio de productos promocionales para empresas",
+    "tags": ["wordpress", "elementor"],
+    "demo": "https://btmpromo.net"
   }
 ]
 

@@ -6,7 +6,7 @@ import styles from '../styles/ProjectsPage.module.css';
 const ProjectsPage = ({ projects }) => {
   return (
     <>
-      <h3>Some stuff I've built</h3>
+      <h3>Algunas cosas que he construido</h3>
       <div className={styles.container}>
         {appsProjectsData.map((project) => (
           <ProjectCard key={project.id} project={project} />
